@@ -3,7 +3,3 @@ patch:
     bindings:
       - { when: paging, accept: comma, send: Page_Up }
       - { when: has_menu, accept: period, send: Page_Down }
-
-  menu:
-    page_size: 6  # 候选词个数
-
